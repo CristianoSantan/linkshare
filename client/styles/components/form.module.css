@@ -1,0 +1,8 @@
+.form input {
+  display: block;
+}
+
+.form button {
+  margin: 10px auto;
+  width: 100%;
+}
