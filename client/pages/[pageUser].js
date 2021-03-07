@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-import styles from '../styles/pageUser.module.css';
+import styles from '../styles/pages/pageUser.module.css';
 
 export default function User() {
   const router = useRouter();
