@@ -2,6 +2,7 @@ const User = require("../models/user.model");
 
 module.exports = {
   async index(req, res) {
+    // res.json([{"name":"cris"},{"name":"Aline"}]);
     res.json(await User.find());
   },
   async create(req, res) {
