@@ -7,7 +7,7 @@ const routes = require("./src/routes");
 
 const app = express();
 const port = process.env.PORT || 5000;
-const CONNECTION_URL = process.env.MONGODB_URL || "mongodb+srv://testemern:testemern123@cluster0.zb7nw.mongodb.net/testemern?retryWrites=true&w=majority";
+const CONNECTION_URL = process.env.MONGODB_URI || "mongodb+srv://testemern:testemern123@cluster0.zb7nw.mongodb.net/testemern?retryWrites=true&w=majority";
 
 mongoose.connect(
   CONNECTION_URL,

@@ -8,7 +8,7 @@ export default function Users() {
   
   useEffect(() => {
     async function fetchMyAPI() {
-      const response = await fetch("http://localhost:5000/api/users");
+      const response = await fetch("https://api-linkshare.herokuapp.com/api/users");
       setUsers(await response.json());
     }
     fetchMyAPI();

@@ -11,7 +11,7 @@ export default function Form() {
     e.preventDefault();
 
     try {
-      await fetch("http://localhost:5000/api/users", {
+      await fetch("https://api-linkshare.herokuapp.com/api/users", {
         method: "POST",
         body: JSON.stringify(formData),
         headers: { "Content-Type": "application/json" },
